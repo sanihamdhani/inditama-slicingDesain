@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+:root {
+    --main-font-family: 'Poppins', sans-serif;
+    --second-font-family: 'Inter', sans-serif;
+    --third-font-family: 'Sarala', sans-serif;
+    --main-color : #dc1e23;
+    --second-color : #F2572E;
+    --four-color :#807D7D;
+   
+  }
+
+  @font-face {
+    font-family: gilroy;
+    src: url(./fonts/Gilroy.otf);
+  }
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif; 
+    color: #0D0D0D;
+   
+/* overflow-x: hidden; */
+/* overflow-y: hidden; */
+
+
+    }
+
+
+    .navbar{
+        padding: 2rem;
+    }
+    .navbar h1{
+        font-family: var(--second-font-family);
+        font-size: 26px;
+        color: var(--second-color);
+    }
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        padding: 5px;
+        gap: 56px;
+      
+       
+    }
+  
+    .navbar li{
+        font-size: 18px;
+    }
+
+    .navbar button{
+        background-color: var(--main-color);
+        color: #fff;
+        border: none;
+        padding: 10px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+
+    /* Hero */
+
+    .hero{
+        margin-top: 5rem;
+    }
+
+    .hero h1{
+        font-size: 54px;
+    
+    }
+
+    .grid-right p{
+        width: 80%;
+    color: #807D7D;
+    /* margin-top: 2rem; */
+    }
+
+  
+    .btn{
+        display: flex;
+        gap: 20px;
+      margin-top: 3rem;
+    }
+    .btn button{
+        border-radius: 10px;
+        background-color: #0D0D0D;
+      
+        justify-content: center;
+        display: flex;
+        padding: 2px;
+        gap: 1px;
+        height: 64px;
+        width: 206px;
+        font-size: 8px;
+        color: #fff;
+    }
+    .btn button p{
+        color: #fff;
+        font-size: 8px;
+       padding: 8px;
+    }
+    .btn h3{
+        color: #fff;
+        font-size: 16px;
+    }
+  
+    .btn button img{
+        /* margin-left: 30px; */
+        width: 35px;
+        height: 35px;
+       margin-top: 10px;
+       margin-left: 20px;
+
+    }
+
+    .user h2{
+        margin-top: 20px;
+        color: #dc1e23;
+        size: 0px;
+        font-family: 'Gilroy';
+    }
+  
+
+    .grid-left img{
+
+        position: absolute;
+        top: 30%;
+        right: 0%;
+    }
+
+
+    /* track */
+
+    .track{
+        margin-top: 8rem;
+        height: 367px;
+        background-image: url("./background.svg");
+    }
+
+    .track h1{
+        font-size: 35px;
+        color: #fff;
+        text-align: center;
+        /* line-height: 52.5px; */
+        padding: 2rem;
+    }
+
+    .track p{
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .track-delivery{
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .track-delivery input{
+        width: 55%;
+        border-radius: 15px;
+        padding: 1rem;
+        border: none;
+        font-size: 16px;
+        
+    }
+    .track-delivery button{
+        background: #F2572E ;
+        border-radius: 15px;
+        width: 25%;
+        border: none;
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .check-price{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .check-price input{
+        width: 55%;
+        border-radius: 15px;
+        padding: 1rem;
+        border: none;
+        font-size: 20px;
+    }
+
+    .track .grid-right button{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        background: #F2572E;
+        border-radius: 15px;
+        padding: 1rem;
+        width: 100%;
+        justify-content: center;
+        border: none;
+        color: #fff;
+        font-size: 17px;
+    }
+
+
+
+    /* Supperiority */
+
+    .superriority{
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .superriority p{
+        margin-top: 2rem;
+        text-align: center;
+        width: 50%;
+        position: relative;
+        margin-left: 25%;
+        color: var(--four-color);  
+    
+    }
+    .superriority .card{
+        display: flex;
+        gap: 20px;
+        margin-top: 5rem;
+        /* padding: 2rem; */
+        height: 400px;
+    }
+
+  
+    .card-content{
+        padding: 2rem;
+        text-align: center;
+        line-height: 2rem;
+        margin-top: 3rem;
+    }
+
+    .card-content h3{
+margin-top: 0.8rem;
+        font-size: 22px;
+    }
+   .superriority .card-content p{
+        font-size: 18px;
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: 0%;
+     
+    }
+
+
+    /* Metode */
+    .metode{
+        margin-top: 15rem;
+    }
+    .grid-metode-left h1{
+        font-family: 'Poppins';
+    
+        font-size: 48px;
+        line-height: 150%;
+        /* or 72px */
+        
+        letter-spacing: 0.016em;
+      }
+    .grid-metode-left p{
+      font-size: 17px;
+      color: var(--four-color);
+      width: 80%;
+    }
+    .grid-metode-right img{
+        position: absolute;
+    right: 0%;
+    }
+
+
+    /* Status */
+
+    .status{
+        margin-top: 20rem;
+         
+    }
+    
+    .status .grid-status-right h1{
+        /* position: absolute; */
+        font-size: 48px;
+       
+    }
+
+    .status .grid-status-right p{
+        font-size: 18px;
+        color: var(--four-color);
+        width: 80%;
+    }
+
+    .grid-status-left img{
+        position: absolute;
+  
+    }
+
+
+
+
+/* Testimony */
+
+.testimony{
+    margin-top: 10rem;
+
+}
+.testimony h1{
+    font-size: 48px;
+    text-align: center;
+    
+}
+.testimony p{
+    font-size: 20px;
+    color: var(--four-color);
+    width: 50%;
+    margin-top: 1rem;
+        text-align: center;
+        width: 50%;
+        position: relative;
+        margin-left: 25%;
+        color: var(--four-color);  
+}
+
+
+.testimony .card-conten{
+    padding: 30px;
+}
+.testimony .card-conten p{
+    font-size: 13px;
+    text-align: start;
+    margin-left: 0%;
+    width: 100%;
+}
+
+    .testimony .card-conten .img-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .testimony h3{
+        margin-top: 1rem;
+    }
+
+
+    /* Available */
+
+    .available{
+        margin-top: 15rem;
+        background-image: url("./background2.svg");
+     
+
+     
+    }
+
+    .available .grid-available-right img{
+       /* position: absolute; */
+       margin-top: -120px;
+       height: 500px;
+       display: flex;
+       justify-content: center;
+       margin-left: 3rem;
+    }
+
+    .available h1{
+        font-size: 48px;
+        color: #fff;
+        margin-top: 2rem;
+    }
+    .available p{
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .btn-available{
+        display: flex;
+        gap: 20px;
+
+      margin-top: 1rem;
+    }
+    .btn-available button{
+        border-radius: 10px;
+        background-color: #0D0D0D;
+      
+        justify-content: center;
+        display: flex;
+        padding: 2px;
+        gap: 10px;
+        height: 64px;
+        width: 206px;
+        font-size: 8px;
+        color: #fff;
+        
+    }
+    .btn-available button p{
+        color: #fff;
+        font-size: 8px;
+       padding: 8px;
+    }
+    .btn-available h3{
+        color: #fff;
+        font-size: 16px;
+    }
+  
+    .btn-available button img{
+        /* margin-left: 30px; */
+        width: 35px;
+        height: 35px;
+       margin-top: 10px;
+    }
+
+
+    /*  Footer */
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+
+    .footer .main-footer p{
+        /* width: 70%; */
+        font-size: 1rem;
+        color: var(--four-color);
+    }
+    .footer .menu-footer h3{
+        font-size: 24px;
+    }
+    .footer .contact-footer h3{
+        font-size: 24px;
+
+    }
+    .footer .contact-footer p{
+        font-size: 20px;
+        color: var(--four-color);
+        line-height: 3rem;
+
+    }
+
+    .footer .menu-footer{
+        right: 50%;
+    }
+    .footer .menu-footer p{
+    font-size: 20px;
+    color: var(--four-color);
+
+    line-height: 3rem;
+    }
+
+    .footer .main-footer .sosmed{
+        display: flex;
+        gap: 14px;
+        margin-top: 2rem;
+    }
+
+    .footer .main-footer .sosmed img{
+        width: 47px;
+        height: 47px;
+    }
+
+   
+    @media only screen and (max-width: 600px) {
+       
+        .navbar ul{
+            display: block;
+        }
+.navbar button{
+    display: none;
+}
+
+.navbar li {
+    display: none;
+}
+        .grid-metode-left img{
+
+            display: none;
+        }
+
+        .grid-status-left img{
+
+            display: none;
+        }
+        .grid-available-right img{
+
+            display: none;
+        }
+
+        .grid-left img{
+            display: none;
+        }
+       .grid-metode-right img{
+        display: none;
+       }
+
+
+      }

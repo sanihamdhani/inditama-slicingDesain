@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "../src/styles/styles.css";
+import "./App.css";
+import Available from "./components/Available";
+import Footer from "./components/Footer";
+import HeaderComponent from "./components/HeaderComponent";
+import Hero from "./components/Hero";
+import MetodeDelivery from "./components/maincontent/MetodeDelivery";
+import SchduleDelivery from "./components/maincontent/SchduleDelivery";
+import StatusDelivery from "./components/maincontent/StatusDelivery";
+import Track from "./components/maincontent/Track";
+
+import Superiority from "./components/Superiority";
+import Testimony from "./components/Testimony";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainApp">
+      <HeaderComponent />
+      <Hero />
+      <Track />
+      <Superiority />
+      <MetodeDelivery />
+      <StatusDelivery />
+      <SchduleDelivery />
+      <Testimony />
+
+      <Available />
+      <Footer />
     </div>
   );
 }
